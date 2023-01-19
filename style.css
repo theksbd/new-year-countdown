@@ -11,7 +11,7 @@ body {
 }
 
 h2 {
-  color: white;
+  color: whitesmoke;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -19,7 +19,7 @@ h2 {
 
 .year {
   font-size: 5em;
-  color: white;
+  color: whitesmoke;
   font-weight: bold;
 }
 
@@ -27,7 +27,7 @@ h2 {
   margin: 30px;
   background-color: rgba(0, 0, 0, 0.1);
   width: 100%;
-  color: white;
+  color: whitesmoke;
   height: 120px;
   display: flex;
   justify-content: center;
@@ -69,4 +69,23 @@ h2 {
 }
 .countdown #second::before {
   content: "Seconds";
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #83ede6;
+}
+
+.footer__link:hover {
+  color: #3e3078;
 }
