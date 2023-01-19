@@ -1,4 +1,4 @@
-# new-year-countdown
+# New Year Countdown
 A simple website New Year Countdown using HTML, CSS and Javascript
 
 # Live site
